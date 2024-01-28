@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import sassDts from 'vite-plugin-sass-dts'
 
 export default defineConfig({
+  base: '/hws2/',
   plugins: [react(), sassDts()],
   server: { port: 3000 },
   build: {

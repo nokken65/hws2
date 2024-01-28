@@ -1,10 +1,10 @@
-// import HW1 from '../s2-homeworks/hw01/HW1'
+import HW1 from '../s2-homeworks/hw01/HW1'
 import s from './App.module.css'
 
 function App() {
   return (
     <div className={s.App}>
-      {/* <HW1 /> */}
+      <HW1 />
       {/*раскомментировать по ходу выполнения*/}
       {/*<HW2/>*/}
       {/*<HW3/>*/}

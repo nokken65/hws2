@@ -8,13 +8,17 @@
 }
 
 .superInput {
+  border-color: lightgreen;
 }
 
 .errorInput {
+  border-color: red;
 }
 
 .errorInput:focus {
+  outline: 2px solid dodgerblue;
 }
 
 .error {
+  color: red;
 }

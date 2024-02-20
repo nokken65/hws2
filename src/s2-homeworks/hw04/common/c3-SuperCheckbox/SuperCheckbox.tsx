@@ -14,7 +14,6 @@ type SuperCheckboxPropsType = Omit<DefaultInputPropsType, 'type'> & {
 }
 
 const SuperCheckbox: React.FC<SuperCheckboxPropsType> = ({
-  onChange,
   onChangeChecked,
   className,
   spanClassName,

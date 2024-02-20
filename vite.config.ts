@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), sassDts()],
   server: { port: 3000 },
   build: {
+    cssMinify: false,
     rollupOptions: {
       output: {
         manualChunks: (path) =>

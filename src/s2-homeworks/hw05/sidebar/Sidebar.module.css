@@ -23,3 +23,8 @@
 
 .close img {
 }
+
+.active {
+  color: red;
+  text-decoration: underline;
+}

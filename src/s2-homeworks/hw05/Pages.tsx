@@ -38,6 +38,10 @@ function Pages() {
           path={'/404'}
           element={<Error404 />}
         />
+        <Route
+          path={'/*'}
+          element={<Error404 />}
+        />
       </Routes>
     </div>
   )

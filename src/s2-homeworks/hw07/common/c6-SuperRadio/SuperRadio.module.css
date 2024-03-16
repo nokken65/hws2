@@ -4,7 +4,6 @@
 .radio::before {
 }
 
-
 .radio:checked::before {
 }
 
@@ -12,4 +11,7 @@
 }
 
 .options {
+}
+
+.span {
 }

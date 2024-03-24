@@ -10,8 +10,8 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): any => {
       return [
         ...state.sort((a, b) =>
           action.payload === 'down'
-            ? b.name.localeCompare(a.name)
-            : a.name.localeCompare(b.name)
+            ? a.name.localeCompare(b.name)
+            : b.name.localeCompare(a.name)
         )
       ]
     }
